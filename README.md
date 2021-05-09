@@ -4,6 +4,8 @@
 - Nube hibrida (CAPEX:Gastos de equipo) 
 - Nube privada (OPEX:Gastos de operacion)
 
+![](imagenes/índice.jpg)
+
 **Nube privada**
 - uso exclusivo de los usuarios o empresas
 
