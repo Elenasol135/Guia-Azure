@@ -52,7 +52,7 @@
 - localizacion
 
 **Creacion de maquina virtuales**
-az group create --name practica-redes-ia --location centralus
+- az group create --name practica-redes-ia --location centralus
 
 az vn create \
 - --resource-group practica-redes-ia \
