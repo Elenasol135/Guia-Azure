@@ -50,3 +50,22 @@
 - suscripcion
 - grupo de recursos
 - localizacion
+
+**Creacion de maquina virtuales**
+az group create --name practica-redes-ia --location centralus
+
+az vn create \
+- --resource-group practica-redes-ia \
+- --location centralus \
+- --name vm-practica-redes-ia \
+- --image UbuntuLTS \
+- --admin-username josejesusguzman \
+- --generate-ssh-keys
+
+- copiar ip publica
+
+- az network public-ip list --resource-group practica-redes-ia --querys[].ipAddress
+
+- ssh josedejesusguzman@40.86.100.245
+
+- sudo apt-get moo
